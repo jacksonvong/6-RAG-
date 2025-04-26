@@ -16,7 +16,7 @@ import os
 import pickle
 from collections import Counter
 
-DASHSCOPE_API_KEY = 'sk-ba5aff6bedf1428285cba7b20507c30e'
+DASHSCOPE_API_KEY = 'sk-'
 
 
 def extract_text_with_page_numbers(pdf) -> Tuple[str, Dict[int, str]]:
